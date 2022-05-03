@@ -24,6 +24,7 @@ requirements:
     - requests ==2.25.0
     - shapely ==1.8.0
     - typeguard ==2.13.0
+    - tqdm~=4.62.3
 
 test:
   imports:
@@ -45,3 +46,4 @@ extra:
   recipe-maintainers:
     - danhirstos
     - JEPooleyOS
+    - FHunt-OS
