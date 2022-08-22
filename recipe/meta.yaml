@@ -1,5 +1,5 @@
 {% set name = "osdatahub" %}
-{% set version = "1.0.6" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 269b5df33313b55e4e480475fb8dbbff2c57cca257ed73c5e6e24d5134668844
+  sha256: 8284c6913b660306a75d16ad6a71e8e6f6618b0869a8cb32a9b6aa922ea39014
 
 build:
   number: 0
