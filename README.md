@@ -1,11 +1,11 @@
-About osdatahub
-===============
+About osdatahub-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/osdatahub-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/OrdnanceSurvey/osdatahub
 
 Package license: OGL-UK-3.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/osdatahub-feedstock/blob/main/LICENSE.txt)
 
 Summary: osdatahub is Ordnance Survey's (OS) Python API wrapper, designed to make data from the OS Data Hub APIs readily accessible to developers.
 
