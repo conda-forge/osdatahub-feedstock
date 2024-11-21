@@ -6,21 +6,22 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 8ec32072e8b9d6877e5948facf9e1690aef7013d31b308acbcba63ca7309dc95
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python 3.8
+    - setuptools
   run:
     - geojson ==2.5.0
-    - python >=3.7
+    - python >=3.8
     - requests ==2.25.0
     - shapely ==1.8.0
     - typeguard ==2.13.0
@@ -44,6 +45,7 @@ about:
 
 extra:
   recipe-maintainers:
-    - dchirst
     - JEPooleyOS
     - FHunt-OS
+    - JEPooley
+    - jmbraybrook
