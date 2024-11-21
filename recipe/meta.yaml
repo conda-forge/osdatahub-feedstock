@@ -44,6 +44,7 @@ about:
 
 extra:
   recipe-maintainers:
-    - dchirst
     - JEPooleyOS
     - FHunt-OS
+    - JEPooley
+    - jmbraybrook
