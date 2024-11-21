@@ -148,6 +148,7 @@ Feedstock Maintainers
 =====================
 
 * [@FHunt-OS](https://github.com/FHunt-OS/)
+* [@JEPooley](https://github.com/JEPooley/)
 * [@JEPooleyOS](https://github.com/JEPooleyOS/)
-* [@dchirst](https://github.com/dchirst/)
+* [@jmbraybrook](https://github.com/jmbraybrook/)
 
