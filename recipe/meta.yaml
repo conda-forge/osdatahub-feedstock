@@ -17,8 +17,8 @@ build:
 requirements:
   host:
     - pip
-    - python 3.10
-    - setuptools
+    - python >=3.10
+    - setuptools >=80.9.0
   run:
     - geojson ~=3.2.0
     - python >=3.10
