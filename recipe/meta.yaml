@@ -1,13 +1,13 @@
 {% set name = "osdatahub" %}
-{% set version = "1.3.3" %}
+{% set version = "1.3.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c82a6758cf98690e16de2d309117048821bd32014eed3b7246a2118c413af7e1
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 580feb9456f2feb79bc5158a161799058168d05a0034ab563d108df76c30c120
 
 build:
   number: 0
@@ -18,16 +18,19 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - setuptools >=80.9.0
+    - setuptools >=84.0.0
   run:
-    - geojson ~=3.2.0
     - python >={{ python_min }}
-    - requests ~=2.32.4
-    - shapely ~=2.1.1
-    - typeguard ~=4.4.4
-    - tqdm ~=4.67.1
-    - urllib3 >=2.5.0
-    - zipp >=3.23.0
+    - geojson >=3.3.0
+    - python >=3.11
+    - requests >=2.34.2
+    - shapely >=2.1.2
+    - typeguard >=4.6.0
+    - tqdm >=4.67.1
+    - urllib3 >=2.8.0
+    - zipp >=4.1.0
+    - pytest-asyncio >=1.4.0
+    - aiohttp >=3.14.3
 test:
   requires:
     - python {{ python_min }}
